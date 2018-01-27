@@ -1,0 +1,5 @@
+C:\Users\geraldinem_lu\Documents\GogoAnime\Interfaz\bin\Debug\Interfaz.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\Interfaz\bin\Debug\Interfaz.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\geraldinem_lu\Documents\GogoAnime\Interfaz\obj\Debug\Interfaz.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\Interfaz\obj\Debug\Interfaz.pdb

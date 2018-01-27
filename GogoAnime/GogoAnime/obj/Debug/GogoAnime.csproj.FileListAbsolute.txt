@@ -1,0 +1,13 @@
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\GogoAnime.exe.config
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\GogoAnime.exe
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\GogoAnime.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\HtmlAgilityPack.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\Interfaz.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\PluginGogo.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\Interfaz.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\PluginGogo.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\bin\Debug\HtmlAgilityPack.xml
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\obj\Debug\GogoAnime.csproj.CoreCompileInputs.cache
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\obj\Debug\GogoAnime.exe
+C:\Users\geraldinem_lu\Documents\GogoAnime\GogoAnime\obj\Debug\GogoAnime.pdb

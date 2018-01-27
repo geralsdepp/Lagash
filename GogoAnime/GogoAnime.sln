@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GogoAnime", "GogoAnime\GogoAnime.csproj", "{05A6E170-45DA-4372-88AB-FB1473F4C653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginGogo", "PluginGogo\PluginGogo.csproj", "{2F9A7A1D-7D30-4003-AE57-7F5257217EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz", "Interfaz\Interfaz.csproj", "{5E77382E-6E36-4340-B18D-684BA5FA51EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A6E170-45DA-4372-88AB-FB1473F4C653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A6E170-45DA-4372-88AB-FB1473F4C653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A6E170-45DA-4372-88AB-FB1473F4C653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A6E170-45DA-4372-88AB-FB1473F4C653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9A7A1D-7D30-4003-AE57-7F5257217EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9A7A1D-7D30-4003-AE57-7F5257217EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9A7A1D-7D30-4003-AE57-7F5257217EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9A7A1D-7D30-4003-AE57-7F5257217EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E77382E-6E36-4340-B18D-684BA5FA51EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E77382E-6E36-4340-B18D-684BA5FA51EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E77382E-6E36-4340-B18D-684BA5FA51EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E77382E-6E36-4340-B18D-684BA5FA51EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

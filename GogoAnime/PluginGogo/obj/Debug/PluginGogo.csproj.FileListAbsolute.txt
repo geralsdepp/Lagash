@@ -1,0 +1,7 @@
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\bin\Debug\PluginGogo.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\bin\Debug\PluginGogo.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\bin\Debug\Interfaz.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\bin\Debug\Interfaz.pdb
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\obj\Debug\PluginGogo.csproj.CoreCompileInputs.cache
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\obj\Debug\PluginGogo.dll
+C:\Users\geraldinem_lu\Documents\GogoAnime\PluginGogo\obj\Debug\PluginGogo.pdb
