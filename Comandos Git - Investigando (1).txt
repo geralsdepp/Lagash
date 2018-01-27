@@ -1,0 +1,83 @@
+	//----------------------------------------------------------------------------------------------------------------
+// Subir un Proyecto de 0.
+//----------------------------------------------------------------------------------------------------------------
+
+git config --global user.name "Javier Ramos"
+git config --global user.email "aranibar.javier@gmail.com"
+git init -----> inicializa un .git (con las configuraciones ya hechas). 
+git remote add origin https://gitlab.lagash.com/javierr_lu/BajadorDeVideos.git -----> Setea la URL donde se subira
+		      https://github.com/JAranibar/BajadorDeVideos                    lo pusheado.
+git add .  ----->  Suma los archivos del branch parado a git.
+git commit -m "Commit Inicial"  ----->  Commitea (Informacion de los cambios) lo agregado al git.
+git push -u origin master  -----> Pushea a origin, la ramificacion master.
+
+//----------------------------------------------------------------------------------------------------------------
+// Subir un branch a GitLab
+//----------------------------------------------------------------------------------------------------------------
+
+git checkout -b nombre_rama  ----->  Crea un branch (ramificacion especificada nombre_rama) 
+git checkout nombre_rama  ----->  Se mueve a la ramificacion especificada (nombre_rama).
+git commit -m "Commit del Branch"  ----->  Commitea (Informacion de los cambios) lo agregado al git.
+git push origin nombre_rama  ----->  Pushea a origen, la ramificacion nombre_rama.
+
+//----------------------------------------------------------------------------------------------------------------
+// Haciendo un Merge-Request
+//----------------------------------------------------------------------------------------------------------------
+
+1 - Posicionarte sobre el branch que se quiere Mergear.
+2 - Ejecutar git add . (hasta que no me diga nada despues de hacerlo)
+3 - Hago un commit git commit -m "...".
+4 - Ejecutar git push
+5 - Aparecera: git push --set-upstream origin <nombre_branch>.
+6 - Ejecutar git push --set-upstream origin <nombre_branch>.
+7 - Aparecera algo asi:
+	Counting objects: 12, done.
+	Delta compression using up to 4 threads.
+	Compressing objects: 100% (12/12), done.
+	Writing objects: 100% (12/12), 2.75 KiB | 0 bytes/s, done.
+	Total 12 (delta 2), reused 0 (delta 0)
+	remote:
+	remote: To create a merge request for ApiUsuario, visit:
+	remote:   https://gitlab.lagash.com/lagash-university/mejor-precio-7/merge_requests/new?merge_request%5Bsource_branch%5D=ApiUsuario
+	remote:
+	To https://gitlab.lagash.com/lagash-university/mejor-precio-7.git
+	 * [new branch]      ApiUsuario -> ApiUsuario
+	Branch ApiUsuario set up to track remote branch ApiUsuario from origin.
+8 - debemos ir a nuestro browser y entrar a la url especificada: https://gitlab.lagash.com/lagash-university/mejor-precio-7/merge_requests/new?merge_request%5Bsource_branch%5D=ApiUsuario
+9 - Asignar a quien enviar el merge y mergear.
+
+//----------------------------------------------------------------------------------------------------------------
+// Haciendo un pull.
+//----------------------------------------------------------------------------------------------------------------
+
+1 - Movernos a master.
+2 - ejecutar: git pull origin master  ----->  Trae los cambios de master (repositorio remoto).
+3 - movernos a branch donde se trabajo.
+4 - ejecutar: git merge master  ----->  Combina el branch con el master traido del repo remoto.
+5 - ejecutar: git status  ----->  Muestra el estado del branch posicionado (en este caso el que se combino), y muestra si hay conflictos o no.
+6 - git push  ----->  para actualizar lo mergeado.
+
+//----------------------------------------------------------------------------------------------------------------
+// Algunos comandos
+//----------------------------------------------------------------------------------------------------------------
+
+git branch -d nombre_rama  ----->  Elimina el branch especificado (nombre_rama) local (de .git creado).
+
+git push -d origin nombre_rama  ----->  Elimina el branch especificado (nombre_rama) remoto (de GitLab).
+
+git branch ----->  Muestra todas los branch (ramificacion) hacerlo parado desde master.
+
+git config --get remote.origin.url  ----->  Muestra la URL a donde va subir el archivo. 
+
+rm -rf .git  ----->  Elimina el git init y con ello las configuraciones.
+
+git clone URL  ----->  Clona el proyecto de la url enviada.
+
+git diff master  ----->  Del branch posicionado muestra la diferencia con el master.
+
+
+
+
+
+
+

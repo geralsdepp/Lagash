@@ -1,0 +1,26 @@
+- dotnet new => opciones para crear nuevos proyectos/soluciones/etc
+ 
+- Pasos para crear una nueva solucion (agrupador de proyectos) con un proyecto de consola y una class library adentro
+
+- mkdir miproyecto # creo directorio
+        
+- cd miproyecto # entro al directorio
+        
+- dotnet new sln # creo una nueva solucion
+      
+  - dotnet new console -o test.miprograma # creo un proyecto de consola en el subdirectorio test.miprograma 
+   
+     - dotnet sln test.sln add test.miprograma/test.miprograma.csproj  # agrego un proyecto a la solucion
+    
+    - dotnet restore # bajo las dependencias de todos los proyecto (en este caso, las clases base de .NET y nada mas)
+        - 
+
+   
+     - dotnet new classlib -o test.plugin1 # creo un proyecto de class library en el subdirectorio test.plugin1
+       
+ - dotnet sln test.sln add test.plugin1/test.plugin1.csproj # agrego el otro proyecto a la solucion
+
+   
+     - cd test.miprograma
+      
+ - dotnet add reference ../test.plugin1/test.plugin1.csproj
