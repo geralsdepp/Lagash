@@ -1,0 +1,6 @@
+Enlace dotnet core
+https://lagash-university.slack.com/archives/C7B1VN13J/p1510613386000388
+
+al visual studio core instalarle c# for visual studio code (powered by omnisharp)
+mssql develop miscrosoft sql server
+azure sql database and sql data werehouse everywhere
